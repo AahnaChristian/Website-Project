@@ -1,0 +1,111 @@
+html {
+    background: black;
+}
+
+h2 {
+    color: rgb(143, 245, 248);
+    text-align: center;
+    font-size: 45px;
+}
+
+a:hover {
+    background: rgb(250, 195, 195);
+    color: black;
+}
+
+.format {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 50px 300px;
+}
+
+.bg1 {
+  min-height: 400px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 45px;
+}
+
+.bg2 {
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.bg3 {
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.bg4 {
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.bg5 {
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.bg6 {
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.bg7 {
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.bg8 {
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.bg9 {
+    min-height: 400px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}

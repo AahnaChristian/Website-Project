@@ -1,0 +1,58 @@
+html {
+    background: black;
+    color: white;
+}
+
+body {
+    text-align: center;
+}
+
+.format {
+    margin: 25px 450px;
+    padding: 15px 1px;
+    background: rgb(250, 195, 195);
+    color: black;
+    border-radius: 25px;
+}
+
+a:hover {
+    background: rgb(250, 195, 195);
+    color: black;
+}
+
+h1 {
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+/* Glow Effect */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+#style {
+    font-family: copperplate;
+    color: rgb(0, 92, 61);
+}
+
+#sub_btn {
+    border-radius: 5px;
+    color: #e60073;
+    background: rgb(253, 246, 234);
+    font-family: copperplate;
+}
+
+.normal {
+    width: 220px;
+    font-size: 15px;
+}

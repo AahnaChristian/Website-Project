@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Art Website PROJ</title>
+    <link rel="shortcut icon" href="img/a.png">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/quiz.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <p>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="quiz.html">Quiz</a>
+    </p>
+
+    <h1 id="glow">Art Quiz</h1>
+
+    <div class="format">
+        <h2>Q1</h2>
+        <p>Which of the following is not considered as a form of visual art?
+        <ol class="left">
+            <li>Decorative</li>
+            <li>Fine art</li>
+            <li>Literary</li>
+            <li>Commercial</li>
+        </ol>
+        </p>
+        <p>Answer: <input class="normal" id="a1" type="text"><span id="feedback1"></span></p>
+        <!-- Literary [option 3] -->
+
+        <h2>Q2</h2>
+        <p>How many primary colors are there?</p>
+        <p>Answer: <input class="normal" id="a2" type="text"><span id="feedback2"></span></p>
+        <!-- 3 or three-->
+
+        <h2>Q3</h2>
+        <p>Which famous artist painted the Mona Lisa?</p>
+        <p>Answer: <input class="normal" id="a3" type="text"><span id="feedback3"></span></p>
+        <!-- Leonardo da Vinci or leonardo-->
+
+        <h2>Q4</h2>
+        <p>Which famous artwork uses pointillism technique</p>
+        <p>Answer: <input class="normal" id="a4" type="text"><span id="feedback4"></span></p>
+        <!-- A Sunday Afternoon on the Island of La Grande Jatte or sunday afternoon-->
+
+        <h2>Q5</h2>
+        <p>What artwork was Vincent van Gogh mostly known for?</p>
+        <p>Answer: <input class="normal" id="a5" type="text"><span id="feedback5"></span></p>
+        <!-- The Starry Night or starry night-->
+        <br>
+
+        <p id="style">Total score:<span id="marks"> 0</span>/5 (<span id="per">0</span>%)</p>
+        <p><span id="resStatement"></span></p>
+        <button id="sub_btn">Submit</button>
+    </div>
+
+    <!-- Load JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

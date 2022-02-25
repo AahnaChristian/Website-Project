@@ -1,0 +1,43 @@
+html {
+    background: url(/img/back.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
+
+a {
+    text-align: center;
+    padding: 20px;
+    margin: 5px 190px;
+    color: rgb(184, 245, 148);
+}
+
+a:hover {
+    color:rgb(250, 195, 195);
+    background: black;
+    border-radius: 25px;
+}
+
+h1 {
+    color: bisque;
+    font-family: Snell Roundhand, cursive;
+    font-size: 70px;
+}
+
+#quote, #author {
+    color: rgb(255, 255, 255);
+    font-family: Brush Script MT;
+    font-size: 38px;
+    margin: 25px 430px;
+}
+
+#quote {
+    margin: 150px 430px 1px;
+}
+
+#author {
+    font-style: oblique;
+    color: rgb(248, 253, 179);
+}
+
+#header {
+    text-align: center;
+}
