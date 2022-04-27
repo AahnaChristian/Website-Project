@@ -20,7 +20,7 @@ a:hover {
     margin: 50px 300px;
 }
 
-.bg1 {
+.bg {
   min-height: 400px;
   position: relative;
   background-attachment: fixed;
@@ -28,84 +28,4 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 45px;
-}
-
-.bg2 {
-    min-height: 400px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 45px;
-}
-
-.bg3 {
-    min-height: 400px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 45px;
-}
-
-.bg4 {
-    min-height: 400px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 45px;
-}
-
-.bg5 {
-    min-height: 400px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 45px;
-}
-
-.bg6 {
-    min-height: 400px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 45px;
-}
-
-.bg7 {
-    min-height: 400px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 45px;
-}
-
-.bg8 {
-    min-height: 400px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 45px;
-}
-
-.bg9 {
-    min-height: 400px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 45px;
 }
