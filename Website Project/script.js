@@ -92,9 +92,9 @@ function check() {
 
     if (percent === 100) {
         // Celebrating statement
-        response.innerHTML = 'Congratulations!!';
+        responseEl.innerHTML = 'Congratulations!!';
     } else {
         // Encouraging statement
-        response.innerHTML = 'Better luck next time!';
+        responseEl.innerHTML = 'Better luck next time!';
     }
 }
