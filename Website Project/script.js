@@ -35,7 +35,6 @@ function check() {
     if (ans1In === '3' || ans1In === 'three') {
         ans1InEl.style.border = '2px solid green';
         totalMar++;
-        totalMarkEl.innerHTML = totalMar;
         feedback1El.innerHTML = ' Correct';
     } else if (ans1In !== '3' || ans1In !== 'three') {
         ans1InEl.style.border = '2px solid red';
@@ -46,7 +45,6 @@ function check() {
     if (ans2In === '3' || ans2In === 'three') {
         ans2InEl.style.border = '2px solid green';
         totalMar++;
-        totalMarkEl.innerHTML = totalMar;
         feedback2El.innerHTML = ' Correct';
     } else if (ans2In !== '3' || ans2In !== 'three') {
         ans2InEl.style.border = '2px solid red';
@@ -57,7 +55,6 @@ function check() {
     if (ans3In === 'leonardo da vinci' || ans3In === 'leonardo') {
         ans3InEl.style.border = '2px solid green';
         totalMar++;
-        totalMarkEl.innerHTML = totalMar;
         feedback3El.innerHTML = ' Correct';
     } else if (ans3In !== 'leonardo da vinci' || ans3In !== 'leonardo') {
         ans3InEl.style.border = '2px solid red';
@@ -68,7 +65,6 @@ function check() {
     if (ans4In === 'a sunday afternoon on the island of la grande jatte' || ans4In === 'sunday afternoon' || ans4In === 'sunday afternoon on the island of la grande jatte' || ans4In === 'sunday afternoon on the island') {
         ans4InEl.style.border = '2px solid green';
         totalMar++;
-        totalMarkEl.innerHTML = totalMar;
         feedback4El.innerHTML = ' Correct';
     } else if (ans4In !== 'a sunday afternoon on the island of la grande jatte' || ans4In !== 'sunday afternoon' || ans4In !== 'sunday afternoon on the island of la grande jatte' || ans4In !== 'sunday afternoon on the island') {
         ans4InEl.style.border = '2px solid red';
@@ -79,13 +75,14 @@ function check() {
     if (ans5In === 'the starry night' || ans5In === 'starry night') {
         ans5InEl.style.border = '2px solid green';
         totalMar++;
-        totalMarkEl.innerHTML = totalMar;
         feedback5El.innerHTML = ' Correct';
     } else if (ans5In !== 'the starry night' || ans5In !== 'starry night') {
         ans5InEl.style.border = '2px solid red';
         feedback5El.innerHTML = ' Correct';
     }
 
+    totalMarkEl.innerHTML = totalMar;
+    
     // Percent calculation
     let percent = (totalMar / 5) * 100;
     percentEl.innerHTML = percent;
