@@ -81,11 +81,11 @@ function check() {
         feedback5El.innerHTML = ' Correct';
     }
 
-    totalMarkEl.innerHTML = totalMar;
+    totalMarkEl.innerHTML = +totalMar;
     
     // Percent calculation
     let percent = (totalMar / 5) * 100;
-    percentEl.innerHTML = percent;
+    percentEl.innerHTML = +percent;
 
     if (percent === 100) {
         // Celebrating statement
