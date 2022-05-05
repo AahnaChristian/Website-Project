@@ -14,15 +14,16 @@ let feedback3El = document.getElementById('feedback3');
 let feedback4El = document.getElementById('feedback4');
 let feedback5El = document.getElementById('feedback5');
 
-// Global Variables
-let totalMar = 0;
-let percent = 0;
-
 // Event Listener
 btnEl.addEventListener('click', check);
 
 // Event Function
 function check() {
+
+    // Global Variables
+    let totalMar = 0;
+    let percent = 0;
+
     // Case Insensetive
     let ans1In = ans1InEl.value.toLowerCase();
     let ans2In = ans2InEl.value.toLowerCase();
@@ -81,11 +82,12 @@ function check() {
         feedback5El.innerHTML = ' Correct';
     }
 
+    // Total Marks after addition
     totalMarkEl.innerHTML = +totalMar;
-    
+
     // Percent calculation
-    let percent = (totalMar / 5) * 100;
-    percentEl.innerHTML = +percent;
+    percent = (totalMar / 5) * 100;
+    percentEl.innerHTML = percent;
 
     if (percent === 100) {
         // Celebrating statement
